@@ -4,19 +4,19 @@
       <id>proxy-maven</id>
       <active>true</active>
       <protocol>http</protocol>
-      <host>${maven.proxy.host}</host>
-      <port>${maven.proxy.port}</port>
-      <username>${maven.proxy.username}</username>
-      <password>${maven.proxy.password}</password>
+      <host>${maven_proxy_host}</host>
+      <port>${maven_proxy_port}</port>
+      <username>${maven_proxy_username}</username>
+      <password>${maven_proxy_password}</password>
     </proxy>
    <proxy>
       <id>proxy-maven</id>
       <active>true</active>
       <protocol>https</protocol>
-      <host>${maven.proxy.host}</host>
-      <port>${maven.proxy.port}</port>
-      <username>${maven.proxy.username}</username>
-      <password>${maven.proxy.password}</password>
+      <host>${maven_proxy_host}</host>
+      <port>${maven_proxy_port}</port>
+      <username>${maven_proxy_username}</username>
+      <password>${maven_proxy_password}</password>
     </proxy>
   </proxies>
 </settings>
