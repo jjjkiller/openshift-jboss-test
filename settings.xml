@@ -1,0 +1,22 @@
+<settings>
+  <proxies>
+   <proxy>
+      <id>proxy-maven</id>
+      <active>true</active>
+      <protocol>http</protocol>
+      <host>${maven.proxy.host}</host>
+      <port>${maven.proxy.port}</port>
+      <username>${maven.proxy.username}</username>
+      <password>${maven.proxy.password}</password>
+    </proxy>
+   <proxy>
+      <id>proxy-maven</id>
+      <active>true</active>
+      <protocol>https</protocol>
+      <host>${maven.proxy.host}</host>
+      <port>${maven.proxy.port}</port>
+      <username>${maven.proxy.username}</username>
+      <password>${maven.proxy.password}</password>
+    </proxy>
+  </proxies>
+</settings>
